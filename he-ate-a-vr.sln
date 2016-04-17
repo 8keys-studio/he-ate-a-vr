@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{36DBC608-0E03-698E-8CC3-4670F002BE96}") = "he-ate-a-vr", "Assembly-CSharp-firstpass.csproj", "{F68260DF-AF82-09F8-48F2-A2DC4CE1E7D5}"
+EndProject
 Project("{36DBC608-0E03-698E-8CC3-4670F002BE96}") = "he-ate-a-vr", "Assembly-CSharp.csproj", "{29C3325E-EE9B-30CC-3E87-263999D2CF11}"
 EndProject
 Project("{36DBC608-0E03-698E-8CC3-4670F002BE96}") = "he-ate-a-vr", "Assembly-CSharp-Editor.csproj", "{6789F783-1557-1193-BE9D-682D25E3BD3F}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68260DF-AF82-09F8-48F2-A2DC4CE1E7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68260DF-AF82-09F8-48F2-A2DC4CE1E7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68260DF-AF82-09F8-48F2-A2DC4CE1E7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68260DF-AF82-09F8-48F2-A2DC4CE1E7D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29C3325E-EE9B-30CC-3E87-263999D2CF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{29C3325E-EE9B-30CC-3E87-263999D2CF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C3325E-EE9B-30CC-3E87-263999D2CF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
