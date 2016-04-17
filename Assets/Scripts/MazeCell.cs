@@ -37,4 +37,11 @@ public class MazeCell : MonoBehaviour {
 			throw new System.InvalidOperationException("MazeCell has no uninitialized directions left.");
 		}
 	}
+
+	public MazeRoom room;
+
+	public void Initialize (MazeRoom room) {
+		room.Add(this);
+		transform.GetChild(0).GetComponent<Renderer>().material = room.settings.floorMaterial;
+	}
 }

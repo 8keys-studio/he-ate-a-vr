@@ -79,6 +79,8 @@
      <Compile Include="Assets\Scripts\MazeDirection.cs" />
      <Compile Include="Assets\Scripts\MazeDoor.cs" />
      <Compile Include="Assets\Scripts\MazePassage.cs" />
+     <Compile Include="Assets\Scripts\MazeRoom.cs" />
+     <Compile Include="Assets\Scripts\MazeRoomSettings.cs" />
      <Compile Include="Assets\Scripts\MazeWall.cs" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
