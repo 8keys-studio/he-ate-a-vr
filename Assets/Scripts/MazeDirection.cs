@@ -51,5 +51,6 @@ using System.Collections;
 	public static Quaternion ToRotation (this MazeDirection direction) {
 		return rotations[(int)direction];
 	}
+		
 	}
 

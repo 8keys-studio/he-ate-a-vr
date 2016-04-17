@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\MazeCell.cs" />
      <Compile Include="Assets\Scripts\MazeCellEdge.cs" />
      <Compile Include="Assets\Scripts\MazeDirection.cs" />
+     <Compile Include="Assets\Scripts\MazeDoor.cs" />
      <Compile Include="Assets\Scripts\MazePassage.cs" />
      <Compile Include="Assets\Scripts\MazeWall.cs" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
