@@ -41,6 +41,14 @@ using System.Collections;
 		return opposites[(int)direction];
 	}
 
+	public static MazeDirection GetNextClockwise (this MazeDirection direction) {
+		return (MazeDirection)(((int)direction + 1) % Count);
+	}
+
+	public static MazeDirection GetNextCounterclockwise (this MazeDirection direction) {
+		return (MazeDirection)(((int)direction + Count - 1) % Count);
+	}
+
 	private static Quaternion[] rotations = {
 		Quaternion.identity,
 		Quaternion.Euler(0f, 90f, 0f),
