@@ -46,14 +46,14 @@ public class MazeCell : MonoBehaviour {
 	}
 		
 	public void OnPlayerEntered () {
-		room.Show();
+		//room.Show();
 		for (int i = 0; i < edges.Length; i++) {
 			edges[i].OnPlayerEntered();
 		}
 	}
 
 	public void OnPlayerExited () {
-		room.Hide();
+		//room.Hide();
 		for (int i = 0; i < edges.Length; i++) {
 			edges[i].OnPlayerExited();
 		}

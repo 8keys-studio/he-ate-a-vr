@@ -6,7 +6,6 @@ public class MazeDoor : MazePassage {
 
 	private MazeDoor OtherSideOfDoor {
 		get {
-			Debug.Log("Dick 0");
 			return otherCell.GetEdge(direction.GetOpposite()) as MazeDoor;
 		}
 	}
@@ -35,18 +34,16 @@ public class MazeDoor : MazePassage {
 	}
 
 	public override void OnPlayerEntered () {
-		//if (OtherSideOfDoor != null) {
-		Debug.Log("Dick 1");
+		if (OtherSideOfDoor != null) {
+
 			OtherSideOfDoor.hinge.localRotation = hinge.localRotation = isMirrored ? mirroredRotation : normalRotation;
-		//}
-		Debug.Log("Dick 1");
-		OtherSideOfDoor.cell.room.Show();
+		}
 	}
 
 	public override void OnPlayerExited () {
-		//if (OtherSideOfDoor != null) {
+		if (OtherSideOfDoor != null) {
 			OtherSideOfDoor.hinge.localRotation = hinge.localRotation = Quaternion.identity;
-		//}
-		OtherSideOfDoor.cell.room.Hide();
+		}
+
 	}
 }
